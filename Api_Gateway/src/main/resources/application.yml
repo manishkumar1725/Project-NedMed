@@ -1,0 +1,13 @@
+zuul:
+ prefix: /api
+ routes:
+    Syrup: 
+     path: /Syrup/
+     serviceId: syrup-service
+    Spray: 
+     path: /Spray/**
+     serviceId: spray-service
+    tablets: 
+     path: /tablets/**
+     serviceId: tablet-service 
+ 
